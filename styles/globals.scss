@@ -1,19 +1,24 @@
 @import 'variaveis.scss';
 
 * {
-  font-family: 'biennale-regular';
+  font-family: $fontRegular;
   font-size: 14px;
 }
 
-.avatar{
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+}
+
+.avatar {
   border-radius: 50%;
   object-fit: cover;
 }
 
-.oculto{
+.oculto {
   display: none;
 }
 
-
 @import '../public/fonts/fonts.scss';
 @import '../componentes/botao/botao.scss';
+@import './paginaPublica.scss';
